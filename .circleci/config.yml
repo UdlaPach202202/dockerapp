@@ -29,3 +29,4 @@ jobs:
             docker push $DOCKER_USER/dockerapp:$CIRCLE_SHA1
 
             docker push $DOCKER_USER/dockerapp:latest
+            
